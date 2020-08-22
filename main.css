@@ -1,0 +1,57 @@
+body{
+	background: url(img/back.jpg) no-repeat center center fixed; 
+}
+ul{
+	list-style-type: none;
+	padding:0;
+}
+
+.month{
+	border: 5px groove #737373;
+	padding-top: 0%;
+	margin-top:10%;
+	text-align:center;
+	background-color:#ffb366;
+}
+
+.head{
+	font-size: 3vw;
+}
+
+.weekdays{
+	background-color:#ddd;
+	font-size:2vw;
+}
+
+.days{
+  background: #eee;
+}
+
+.days>.col{
+  text-align: center;
+  margin-bottom:0;
+  font-size: 1.5vw;
+  color: #777;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+#history{
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 2vw;
+  padding: 0.5% 1.5%;
+  cursor: pointer;
+  text-align: center;
+}
+
+#history:hover {
+  background-color: black;
+  color: white;
+}
+
+#footer{
+	margin-top: 5%;
+	text-align:left;
+	color:black;
+}

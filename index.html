@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="modal.css">
+	<link rel="stylesheet" href="shiftbox.css">
+</head>
+
+<body>
+</div>
+	<div class="container">
+		<div class="row">
+		<div id="tmonth" class="month col-md-5 align-self-start">
+			<div id="thead" class="head container"></div>
+			<div class="weekdays row">
+				<div class="col">Mo</div>
+				<div class="col">Tu</div>
+				<div class="col">We</div>
+				<div class="col">Th</div>
+				<div class="col">Fr</div>
+			</div>
+			<div id="tdays" class="days row"></div>
+		</div>
+		<div id="history" class="col-md-2 align-self-center border border-warning rounded"><span >Clear notes</span></div>
+		<div id="nmonth" class="month col-md-5 align-self-start">
+			<div id="nhead" class="head container"> </div> 
+			<div class="weekdays row">
+				<div class="col">Mo</div>
+				<div class="col">Tu</div>
+				<div class="col">We</div>
+				<div class="col">Th</div>
+				<div class="col">Fr</div>
+			</div>
+			<div id="ndays" class="days row"></div>
+		</div>
+		</div>
+	</div>
+	
+<!-- Modal1 -->
+<div class="modal fade" id="modal1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-custom" id="modal1-title"></h5>
+        <button type="button" id="modal1-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal1-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom" id="modal1-exit" data-dismiss="modal">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal2 -->
+<div class="modal fade" id="modal2" data-backdrop='static' data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title-custom" id="modal2-title"></h5>
+        <button type="button" id="modal2-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal2-body">
+        
+      </div>
+      <div class="modal-footer" id="modal2-footer">
+        <button type="button" class="btn btn-custom" id="modal2-exit" data-dismiss="modal">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<div id="footer" class="container d-md-block">
+		<div class='row'>
+			<div class='col-md-12'>
+				Author: Jakub Bogdański. Last update: 26.06.2020 13:42 
+				<small class="text-muted"><a href="http://www.freepik.com">Designed by pikisuperstar / Freepik</a></small>
+			</div>
+		</div>
+	</div>
+	<script src="jquery-3.5.1.min.js"></script>	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="background.js"></script>
+	<script src="plan.js"></script>
+</body>
+
+
+</html>
